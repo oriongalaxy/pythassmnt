@@ -1,3 +1,4 @@
+#python code to list each resource in details such as ec2 
 import boto3
 #utilizing boto3 api service for ec2. reference https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/index.html
 client = boto3.client('ec2')
